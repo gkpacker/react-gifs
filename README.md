@@ -1,6 +1,6 @@
-# react-boilerplate
+# react-gifs
 
-Simple react starter with the following config:
+Simple react app with the following config:
 
 - React, ReactDOM
 - Webpack 4
@@ -28,3 +28,7 @@ To build and deploy your app to `gh-pages` branch on the GitHub repo:
 ```bash
 yarn deploy
 ```
+## Features
+1. When a user types a query, the list of Gifs should display the 10 first results the `giphy-api` returns.
+1. When a user clicks on a gif from the list, it should appear on the main scene on the left.
+1. (Optional) When a user focuses in / out of the input, find a nice way to twist the UI on the left part (opacity, background-color, border...) to show your user he's in / out of the input!
